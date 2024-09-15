@@ -1,0 +1,31 @@
+section {
+    max-width: 900px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    background-color: rgb(49, 92, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    padding: 1px 2px;
+}
+
+th, td {
+    text-align: left;
+    padding: 1.5rem;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 1px solid rgb(220, 227, 233);
+    border-right: 1px solid rgb(220, 227, 233);
+    color: white;
+}
+  
+th {
+    background-color: rgb(49, 92, 128);
+    color: yellow;
+}
+  
+tr {
+    background-color: rgb(49, 92, 128);
+}

@@ -1,0 +1,23 @@
+section {
+    padding: 10rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #000;
+    color: white;
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
