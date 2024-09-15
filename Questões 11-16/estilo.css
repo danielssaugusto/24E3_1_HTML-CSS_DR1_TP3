@@ -50,6 +50,14 @@ header {
 .navegacao a {
     color: white;
     text-transform: uppercase;
+    padding: 1rem;
+}
+
+.navegacao a:hover {
+    color: var(--cor-principal);
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 1s ease;
 }
 
 .hero-titulo {
@@ -88,4 +96,78 @@ header {
 
 .hero-banner {
     width: 100%;
+}
+
+.sessao-cafe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.escolha-cafe h2 {
+    font-family: cursive;
+    color: var(--cor-principal);
+    text-align: left;
+    margin: 2rem 0 0 2rem;
+}
+
+.escolha-cafe-descricao {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.encontrar-loja h2 {
+    font-family: cursive;
+    color: var(--cor-principal);
+    text-align: left;
+    margin: 2rem 0 0 2rem;
+}
+
+.encontrar-loja-descricao {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.descricao a {
+    color: var(--cor-principal);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.maps-cafe {
+    width: 400px;
+    height: 300px;
+}
+
+.rodape-sessao {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-principal);
+    color: white;
+    line-height: 2rem;
+    padding: 2rem;
+    cursor: default;
+}
+
+.autores {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: default;
+}
+
+hr {
+    color: #fff;
 }
