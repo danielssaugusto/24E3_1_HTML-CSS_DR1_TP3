@@ -1,0 +1,59 @@
+.menu-questoes {
+    position: relative !important;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+header {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.lista-nav li {
+    display: flex;
+    align-items: center;
+    color: rgb(123, 1, 168);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.lista-nav img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    filter: sepia(100%) saturate(200%) hue-rotate(250deg) brightness(80%) contrast(100%);
+    mix-blend-mode: multiply;
+}
+
+.lista-nav li:hover {
+    color: #ddd;
+    background-color: rgb(123, 1, 168);
+    cursor: pointer;
+    transition: color 0.3s;
+
+    img {
+        filter: invert(1) grayscale(1) brightness(900%);
+    }
+}

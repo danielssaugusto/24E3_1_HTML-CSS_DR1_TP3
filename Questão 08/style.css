@@ -1,0 +1,32 @@
+.main-container {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+  }
+  
+  .videos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+  }
+  
+  .display-conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Verdana", monospace;
+    line-height: 2rem;
+  }
+  
+  .video-player {
+    width: 32rem;
+    height: 18rem;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

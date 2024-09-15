@@ -12,5 +12,36 @@
         <a href="../menu.html">Voltar</a>
         Questão 08
     </div>
+
+    <main class="main-container">
+        <section class="videos horizontal">
+            <!-- Vídeo do YouTube -->
+            <div class="display-conteudo">
+                <h2>Vídeo incorporado do YouTube</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fhy-5CtVkiM?si=X-3RUdD52U8SLSc6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Vídeo com source de algum endereço na web -->
+            <div class="display-conteudo">
+                <h2>Vídeo com source de algum endereço na web</h2>
+                <video width="560" height="315" controls>
+                    <source src="https://video.akamai.steamstatic.com/store_trailers/256720063/movie480.webm?t=1529112507 type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+        </section>
+
+        <!-- Vídeo com source de arquivo incorporado diretamente do seu projeto -->
+        <section class="videos vertical">
+            <div class="display-conteudo">
+                <h2>Vídeo incorporado diretamente do projeto (pasta: assets)</h2>
+                <video width="560" height="315" controls>
+                    <source src="../assets/htmlcode.mp4">
+                    Seu navegador não suporta o elemento de vídeo
+                </video>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
